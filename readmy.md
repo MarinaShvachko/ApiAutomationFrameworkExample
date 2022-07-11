@@ -11,7 +11,7 @@ To run the tests you need to have a GitHub repository, generate an access token 
 - Open "Personal access tokens"
 - Generate new token
 - Copy the token that is shown, as later only the name of token will be shown on UI
-- Insert this token in the class Authentication*
+- Insert this token in the class Authentication
 
 
 - In classes CreateRepositoryTests and DeleteRepositoryTests change value of the variable USER_NAME, insert there the name of your GitHub account.
@@ -30,11 +30,13 @@ BaseClass: contains basic methods for sending put, post, get, delete requests
 
 **About packages**
 
-resources: contains json files for creating requests and the package "pojoClasses" that contains objects for creating requests
-
-tests: contains classes to run tests
+resourcesForBodies: contains json files for creating requests and the package "pojoClasses" that contains objects for creating requests
 
 utility: contains classes with basic methods and data that is needed for creating tests
+
+**To run tests**
+
+Go to "test" -> "java" package
 
 
 

@@ -9,6 +9,7 @@ import utility.Url;
 
 //TODO: add log4j
 //TODO: move common final variables to a separate class
+//:TODO: add start of tests via testNG file
 public class CreateRepositoryTests {
     private static final String USER_NAME = "MarinaShvachko";
     String endPoint = Url.getBaseUrI("/user/repos");
